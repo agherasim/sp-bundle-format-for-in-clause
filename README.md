@@ -1,9 +1,8 @@
 # sp-bundle-format-for-in-clause
-![Screencast](https://raw.githubusercontent.com/agherasim/sp-bundle-format-for-in-clause/master/screencast.gif)
-
 Sequel Pro bundle to format a list of items for inclusion into an statement
-
 **The list must contain one item per line.**
+
+![Screencast](https://raw.githubusercontent.com/agherasim/sp-bundle-format-for-in-clause/master/screencast.gif)
 
 ## Usage ##
 - open Sequel Pro -> Bundle -> Bundle Editor
