@@ -13,7 +13,7 @@ while (my $input = <STDIN>) {
   for my $line (split(/\r|\n/, $input)) { 
     $line = trim($line);
 
-    $wrapper = $line =~ /\D+/ ? '"' : '';
+    $wrapper = $line =~ /^[\d.]+$/ ? '' : '"';
     if ($l_count == 0) {
       $line =~ s/^([\w\W]+)/$wrapper$1$wrapper/g;
     } else {
