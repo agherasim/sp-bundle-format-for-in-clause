@@ -12,3 +12,13 @@ Sequel Pro bundle to format a list of items for inclusion into an statement
 - save
 - enjoy
 
+## Contributing ##
+### Running tests ###
+- ```cd test```
+- ```./test.sh```
+
+### Adding new tests ###
+- tests expect an input file and an expected results file;
+- tests follow the naming convention test_XX.in for input file and test_XX.exp for expected results;
+- lines starting with # are considered comments;
+- first comment line in input file is used for test description; 
